@@ -5,6 +5,7 @@
 #include <avr/power.h>
 #include "tinyTouch.h"
 
+const int eyesOnTime = 3000; // Time eyes are on in ms after touched
 
 void setup() {
 
@@ -31,21 +32,21 @@ void setup() {
 
 void loop() {
 
+  // Sleep cycle
   ADCSRA &= ~(_BV(ADEN)); // Disable ADC
   sleep_enable();
   sleep_mode();
   sleep_disable();
   power_all_enable();
+  ADCSRA |= _BV(ADEN); // Enable ADC
+  delay(10); // Needed for ADC warmup/stabilization
 
-  ADCSRA |= _BV(ADEN); // Disable ADC
-  delay(10);
+  // Check for touch and light up
   if (tinytouch_sense() == tt_push) {
     PORTB |= _BV(PB4); // Blink LED on touch event
-    delay(3000);
+    delay(eyesOnTime);
     PORTB &= ~(_BV(PB4));
   }
-
-
 }
 
 ISR (WDT_vect) {
@@ -57,7 +58,11 @@ void setup_watchdog() {
 
   // Start timed sequence to set
   WDTCR |= _BV(WDCE) | _BV(WDE);
-  // Set new watchdog timeout value (2 seconds)
-  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP1) | _BV(WDP0);
+  
+  // Set new watchdog timeout value 
+//  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP1) | _BV(WDP0); // 2 seconds
+  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP1); // 1 second
+//  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP0); // 0.5 seconds
+  
   WDTCR |= _BV(WDIE);
 }

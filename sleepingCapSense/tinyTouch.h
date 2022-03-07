@@ -1,13 +1,4 @@
-/*
-  v0.1  06/10/2013
 
-  TinyTouchLibrary Example
-
-  Hardware:
-  - Attiny 13A/25/45/85
-  - LED on PB4
-  - Touchbutton on PB3
-*/
 
 #include <avr/io.h>
 #include <util/delay.h>
@@ -24,7 +15,7 @@
 // Setting the "off" value higher will make the touch button less likely
 // to be "stuck". Too high values can lead to oscillations.
 
-#define touch_threshold_on 40
+#define touch_threshold_on 30
 #define touch_threshold_off 20
 
 // If the touch button is pressed, the bias value is not updated
@@ -50,10 +41,10 @@
 // The pin number must match the corresponding analog input number ADCx.
 // Default port is PORTB. (ATtiny 5/10/13/25/45/85)
 
-#define tt_refpin 2   // Use PB2 as reference pin
-#define tt_refadc 1   // Use ADC1 as reference ADC input
-#define tt_sensepin 3 // Use PB3 as sense pin
-#define tt_senseadc 3 // Use ADC3 as sense ADC input
+#define tt_refpin 3   // Use PB3 as reference pin
+#define tt_refadc 3   // Use ADC3 as reference ADC input
+#define tt_sensepin 2 // Use PB2 as sense pin
+#define tt_senseadc 1 // Use ADC1 as sense ADC input
 
 //////////////////////////////////////////////////////////////////////////
 //
