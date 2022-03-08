@@ -27,7 +27,7 @@
 // The maximum is 255.
 // Setting timeout to 0 will turn the functionality off.
 
-#define touch_timeout 255
+#define touch_timeout 10
 //#define touch_timeout 0    // turn off timeout functionality
 
 
