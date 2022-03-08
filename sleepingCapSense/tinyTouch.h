@@ -15,7 +15,7 @@
 // Setting the "off" value higher will make the touch button less likely
 // to be "stuck". Too high values can lead to oscillations.
 
-#define touch_threshold_on 30
+#define touch_threshold_on 50
 #define touch_threshold_off 20
 
 // If the touch button is pressed, the bias value is not updated

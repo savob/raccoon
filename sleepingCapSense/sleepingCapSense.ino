@@ -6,6 +6,7 @@
 #include "tinyTouch.h"
 
 const int eyesOnTime = 3000; // Time eyes are on in ms after touched
+const byte eyesPin = 4;
 
 void setup() {
 
@@ -13,56 +14,62 @@ void setup() {
     pinMode(x, OUTPUT); digitalWrite(x, LOW);
   }
 
-  CLKPR = _BV(CLKPCE);
-  CLKPR = 0;    // set clock prescaler to 1 (attiny 25/45/85/24/44/84/13/13A)
+//  CLKPR = _BV(CLKPCE);
+//  CLKPR = 0;    // set clock prescaler to 1 (attiny 25/45/85/24/44/84/13/13A)
 
   tinytouch_init();
 
-  // Trying to reduce power use
-  ACSR &= ~(_BV(ACD)); // Disable analog comparator
-  DIDR0 = _BV(AIN1D) | _BV(AIN0D); // Disable digital input buffers on analog pins (we don't need digital in)
 
   // Set sleep mode
   set_sleep_mode(SLEEP_MODE_PWR_DOWN);
 
   setup_watchdog();
+
+  // Light on to confirm power on
+  digitalWrite(eyesPin, HIGH);
+  delay(eyesOnTime);
+  digitalWrite(eyesPin, LOW);
+
+    // Trying to reduce power use
+  ACSR |= _BV(ACD); // Disable analog comparator
+  DIDR0 = _BV(AIN1D) | _BV(AIN0D); // Disable digital input buffers on analog pins (we don't need digital in)
+  PRR = _BV(PRTIM1) | _BV(PRTIM0) | _BV(PRUSI) | _BV(PRADC);
 }
-
-
 
 void loop() {
 
   // Sleep cycle
   ADCSRA &= ~(_BV(ADEN)); // Disable ADC
-  sleep_enable();
+  __power_all_disable();
   sleep_mode();
   sleep_disable();
-  power_all_enable();
+  __power_all_enable();
   ADCSRA |= _BV(ADEN); // Enable ADC
   delay(10); // Needed for ADC warmup/stabilization
 
   // Check for touch and light up
   if (tinytouch_sense() == tt_push) {
-    PORTB |= _BV(PB4); // Blink LED on touch event
+    digitalWrite(eyesPin, HIGH);
     delay(eyesOnTime);
-    PORTB &= ~(_BV(PB4));
+    digitalWrite(eyesPin, LOW);
   }
 }
 
-ISR (WDT_vect) {
-  // Do nothing, just escape sleep
-}
-
 void setup_watchdog() {
-  MCUSR &= ~(1 << WDRF); // Reset WDT
+  MCUSR &= ~_BV(WDRF); // Reset WDT
 
   // Start timed sequence to set
   WDTCR |= _BV(WDCE) | _BV(WDE);
   
   // Set new watchdog timeout value 
-//  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP1) | _BV(WDP0); // 2 seconds
-  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP1); // 1 second
+//  WDTCR = _BV(WDCE) | _BV(WDP3) | _BV(WDP0); // 8 seconds
+  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP1) | _BV(WDP0); // 2 seconds
+//  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP1); // 1 second
 //  WDTCR = _BV(WDCE) | _BV(WDP2) | _BV(WDP0); // 0.5 seconds
   
   WDTCR |= _BV(WDIE);
+}
+
+ISR (WDT_vect) {
+  // Do nothing, just escape sleep
 }
