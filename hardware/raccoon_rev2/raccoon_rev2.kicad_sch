@@ -2556,6 +2556,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" "RC0603FR-07330RL"
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55d09fd4-9cbc-425f-b255-15a39bd56cd2")
 		)
@@ -2616,6 +2625,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 77.47 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT PN" ""
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -2846,6 +2864,15 @@
 			)
 		)
 		(property "Manufacturer PN" "ATTINY1617-MNR"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT PN" "ATTINY1617-MN"
 			(at 147.32 96.52 0)
 			(effects
 				(font
@@ -3150,6 +3177,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" "RC0603FR-07330RL"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f1b65e8-f560-4739-95c3-7ede3cd6314f")
 		)
@@ -3312,6 +3348,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e01d7a82-bd87-4871-acfa-7148e2f8a280")
 		)
@@ -3420,6 +3465,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" ""
+			(at 186.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5555fd5-58a2-45cf-933e-ad3e682b57ed")
 		)
@@ -3502,6 +3556,15 @@
 			)
 		)
 		(property "Manufacturer PN" "0603WAF1002T5E"
+			(at 175.26 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT PN" "CRCW060310K0FKEA "
 			(at 175.26 86.36 90)
 			(effects
 				(font
@@ -3800,6 +3863,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" "MP001247"
+			(at 175.26 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0835cb07-9a31-44a4-b893-d33e4be0172f")
 		)
@@ -3961,6 +4033,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" "MP001247"
+			(at 185.42 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8235761-8699-4df6-977d-b9cbb0ab9294")
 		)
@@ -4049,6 +4130,15 @@
 			)
 		)
 		(property "Manufacturer PN" "0603WAF1002T5E"
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT PN" "CRCW060310K0FKEA "
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -4286,6 +4376,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" "BC-2001"
+			(at 68.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2cdd0863-0558-4a27-8870-bff08a903744")
 		)
@@ -4439,6 +4538,15 @@
 			)
 		)
 		(property "Manufacturer PN" "CC0603KRX7R9BB104"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT PN" ""
 			(at 138.43 62.23 0)
 			(effects
 				(font
@@ -4609,6 +4717,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT PN" ""
+			(at 128.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0a77144-6eea-4b97-95f8-969c57c58625")
 		)
@@ -4697,6 +4814,15 @@
 			)
 		)
 		(property "Manufacturer PN" "CC0603KRX7R9BB104"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT PN" ""
 			(at 175.26 92.71 0)
 			(effects
 				(font

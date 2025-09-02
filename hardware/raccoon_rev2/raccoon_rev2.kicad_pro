@@ -626,6 +626,12 @@
           "label": "MFG PN",
           "name": "Manufacturer PN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ALT PN",
+          "name": "ALT PN",
+          "show": false
         }
       ],
       "filter_string": "",

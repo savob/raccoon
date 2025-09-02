@@ -255,6 +255,19 @@
 				)
 			)
 		)
+		(property "ALT PN" "MP001247"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43bec438-00a4-4d4d-9ecc-427115ce6bf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bd38c009-914c-42eb-b20c-fd1265daf718")
 		(sheetname "/")
@@ -1426,6 +1439,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94874c7c-851b-4c06-8cac-2c29b79447bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "ALT PN" "MP001247"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41bb1bc3-e19f-4a20-a3b5-0ecdbc553499")
 			(effects
 				(font
 					(size 1 1)
@@ -5551,6 +5577,19 @@
 				)
 			)
 		)
+		(property "ALT PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5879c519-24ba-4cc7-afc5-9e0551349bf9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/902291a3-c058-4bf9-8700-a28596b6c241")
 		(sheetname "/")
@@ -5711,6 +5750,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "565993ef-e88a-4bef-b3e2-f32daa918307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALT PN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8c1f42f5-b755-4718-ad34-5d035e203c3a")
 			(effects
 				(font
 					(size 1 1)
@@ -6004,6 +6057,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1fda02dc-c89c-4bf6-976f-2fa552590c73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALT PN" "ATTINY1617-MN"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8bce264f-3055-406b-8c42-6d8cd6aa9469")
 			(effects
 				(font
 					(size 1 1)
@@ -6721,6 +6788,20 @@
 				(justify mirror)
 			)
 		)
+		(property "ALT PN" "CRCW060310K0FKEA "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3b0451e9-97ed-4d80-bb52-d7bffc2ad58f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d5ce9073-f652-421d-afde-0d7f90c33390")
 		(sheetname "/")
@@ -6965,6 +7046,20 @@
 				(justify mirror)
 			)
 		)
+		(property "ALT PN" "RC0603FR-07330RL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e9f0c21e-81cb-4452-b9a8-10e5dbc735fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7e8733c1-fbd7-4366-841e-ce9a8273adef")
 		(sheetname "/")
@@ -7166,6 +7261,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALT PN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c10b6a69-736a-478d-b819-0734220aaf59")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7401,6 +7510,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "69df1e1e-409a-41d3-ab94-af2eddc8603f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALT PN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "962c766e-d026-4c4f-ad9e-a4e6fef20a15")
 			(effects
 				(font
 					(size 1 1)
@@ -7653,6 +7776,20 @@
 				(justify mirror)
 			)
 		)
+		(property "ALT PN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7de8d01b-7109-4751-a3e3-8bcf1f29e0df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fd4a78f2-ef0a-41c5-87e8-01059600e00e")
 		(sheetname "/")
@@ -7889,6 +8026,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "55628f5a-1510-434c-b71c-dda4045b2944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALT PN" "RC0603FR-07330RL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "604e9689-b3bf-46c4-9485-1acbaeafd92b")
 			(effects
 				(font
 					(size 1 1)
@@ -8141,6 +8292,20 @@
 				(justify mirror)
 			)
 		)
+		(property "ALT PN" "CRCW060310K0FKEA "
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68d00c6a-7fb0-4089-8118-3d35879e81cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/aa278a0d-9aaa-400e-a711-4ffb24eae2b6")
 		(sheetname "/")
@@ -8377,6 +8542,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d2f83d43-3449-4a19-b429-8badf2bafa75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALT PN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "540901f1-63d2-45e3-9078-2aa554129db0")
 			(effects
 				(font
 					(size 1 1)
@@ -8625,6 +8804,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "960e3a71-d333-4205-afab-7d5b7023517d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "ALT PN" "BC-2001"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbaa8610-ed2d-4f71-a1df-b9a2e43a5def")
 			(effects
 				(font
 					(size 1 1)
