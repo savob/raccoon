@@ -1,0 +1,186 @@
+make -f nbproject/Makefile-defaultActiveCA.mk SUBPROJECTS= .clean-conf
+make[1]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+rm -f  -r .ca/build/defaultActiveCA/production
+rm -f  -r .ca/dist/defaultActiveCA/production
+make[1]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+[32mCLEAN SUCCESSFUL (total time: 152ms)[0m
+make -f nbproject/Makefile-defaultActiveCA.mk SUBPROJECTS= .build-conf
+make  -f nbproject/Makefile-defaultActiveCA.mk .ca/dist/defaultActiveCA/production/raccoon_rev_2_0.X.production.hex
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc" -c  -mcpu=ATtiny1617  -x assembler-with-cpp -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA  -gdwarf-3 -mno-const-data-in-progmem -Wa,--defsym=__MPLAB_BUILD=1   -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/protected_io.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/protected_io.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/protected_io.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/protected_io.o  mcc_generated_files/system/src/protected_io.S 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/config_bits.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/config_bits.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/config_bits.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/config_bits.o mcc_generated_files/system/src/config_bits.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/clock.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/clock.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/clock.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/clock.o mcc_generated_files/system/src/clock.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+[31mmcc_generated_files/system/src/config_bits.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/interrupt.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/interrupt.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/interrupt.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/interrupt.o mcc_generated_files/system/src/interrupt.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/main.o.d" -MT ".ca/build/defaultActiveCA/production/main.o.d" -MT .ca/build/defaultActiveCA/production/main.o -o .ca/build/defaultActiveCA/production/main.o main.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+mcc_generated_files/system/src/clock.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+mcc_generated_files/system/src/interrupt.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+main.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+  /*
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.[0m
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/touch/example/touch_example.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/touch/example/touch_example.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/touch/example/touch_example.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/touch/example/touch_example.o mcc_generated_files/touch/example/touch_example.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/delay.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/delay.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/delay.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/delay.o mcc_generated_files/timer/src/delay.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/power/src/power.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/power/src/power.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/power/src/power.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/power/src/power.o mcc_generated_files/power/src/power.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+[31mmcc_generated_files/touch/example/touch_example.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+  /*******************************************************************************
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+mcc_generated_files/timer/src/delay.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+mcc_generated_files/power/src/power.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.[0m
+[31mmcc_generated_files/touch/touch.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /*******************************************************************************
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.[0m
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/touch/touch.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/touch/touch.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/touch/touch.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/touch/touch.o mcc_generated_files/touch/touch.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/system.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/system.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/system.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/system.o mcc_generated_files/system/src/system.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+[31mmcc_generated_files/system/src/system.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.[0m
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/rtc.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/rtc.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/rtc.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/rtc.o mcc_generated_files/timer/src/rtc.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -c  -x c -D__ATtiny1617__   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -DXPRJ_defaultActiveCA=defaultActiveCA    -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/pins.o.d" -MT ".ca/build/defaultActiveCA/production/mcc_generated_files/system/src/pins.o.d" -MT .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/pins.o -o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/pins.o mcc_generated_files/system/src/pins.c 
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+[31mmcc_generated_files/timer/src/rtc.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+mcc_generated_files/system/src/pins.c:1:0: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+ /**
+ ^
+cc1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.[0m
+make[2]: Entering directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+"/opt/microchip/xc8/v3.10/bin/xc8-cc"  -mcpu=ATtiny1617 -Wl,-Map=.ca/dist/defaultActiveCA/production/raccoon_rev_2_0.X.production.map  -DXPRJ_defaultActiveCA=defaultActiveCA  -Wl,--defsym=__MPLAB_BUILD=1   -mdfp="/home/savo/.mchp_packs/Microchip/ATtiny_DFP/3.3.272/xc8"  -Wl,--gc-sections -O2 -ffunction-sections -fdata-sections -fshort-enums -fno-common -mchp-stack-usage -funsigned-char -funsigned-bitfields -Wall -gdwarf-3 -mno-const-data-in-progmem      -Wl,--memorysummary,.ca/dist/defaultActiveCA/production/memoryfile.xml -o .ca/dist/defaultActiveCA/production/raccoon_rev_2_0.X.production.elf  -o .ca/dist/defaultActiveCA/production/raccoon_rev_2_0.X.production.elf  .ca/build/defaultActiveCA/production/mcc_generated_files/power/src/power.o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/clock.o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/interrupt.o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/config_bits.o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/protected_io.o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/system.o .ca/build/defaultActiveCA/production/mcc_generated_files/system/src/pins.o .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/rtc.o .ca/build/defaultActiveCA/production/mcc_generated_files/timer/src/delay.o .ca/build/defaultActiveCA/production/mcc_generated_files/touch/example/touch_example.o .ca/build/defaultActiveCA/production/mcc_generated_files/touch/touch.o .ca/build/defaultActiveCA/production/main.o    mcc_generated_files/touch/libraries/libqtm_touch_key_t1617_0x0002.X.a mcc_generated_files/touch/libraries/libqtm_acq_t1617_0x0017.X.a mcc_generated_files/touch/libraries/libqtm_acq_runtime_t1617_0x0018.X.a  -Wl,--start-group  -Wl,-lm -Wl,--end-group 
+Info: Loading file: /opt/microchip/xc8/v3.10/avr/avr/bin/../lib/ldscripts/avrxmega3.xn
+[31mld: warning: Option --mchp-stack-usage is ignored because this feature requires MPLAB XC8 PRO Compiler License.
+ld: note: Disable the option or visit http://www.microchip.com/MPLABXCcompilers to purchase a new MPLAB XC compiler license.
+"/opt/microchip/xc8/v3.10/bin"/avr-objcopy -O ihex ".ca/dist/defaultActiveCA/production/raccoon_rev_2_0.X.production.elf" ".ca/dist/defaultActiveCA/production/raccoon_rev_2_0.X.production.hex"
+lto1: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+make[2]: Leaving directory '/home/savo/projects/raccoon/firmware/raccoon_rev_2_0.X'
+lto1: warning: Compiler option (Link-time optimization) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+lto1: warning: Compiler option (Report stack usage guidance) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_measure_node':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1171:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'select_next_channel_to_measure':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1129:16: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'charge_share_test':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:171:16: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'check_for_aks_block':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/qtm_buttons.c:284:16: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_t161x_ptc_handler_wcomp':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1482:6: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_t161x_ptc_handler_eoc':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1466:6: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_autoscan_node_cancel':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1402:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_autoscan_sensor_node':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1258:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_calibrate_sensor_node':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1083:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_enable_sensor_node':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:1056:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_ptc_start_measurement_seq':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:950:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_ptc_qtlib_assign_signal_memory':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:912:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_ptc_init_acquisition_module':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:855:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_acquisition_process':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/ptc_driver_t1617_seq.c:440:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_key_sensors_process':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/qtm_buttons.c:384:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_init_sensor_key':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/qtm_buttons.c:356:13: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+In function 'qtm_update_qtlib_timer':
+lto1: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.
+src/qtm_buttons.c:88:6: warning: Compiler option (Optimize for size) ignored because this feature requires the MPLAB XC8 PRO compiler
+lto1: note: Disable the option or visit http://www.microchip.com/mplab/compilers to purchase a new MPLAB XC compiler license.[0m
+[32mBUILD SUCCESSFUL (total time: 4s)[0m
