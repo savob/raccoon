@@ -2035,6 +2035,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Should be a direct pad connection"
+		(exclude_from_sim no)
+		(at 182.88 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "5f40bc19-e81d-4b8f-9bac-030979257c7d")
+	)
 	(text "Jumper to interrupt for current measurement"
 		(exclude_from_sim no)
 		(at 96.52 92.71 0)
@@ -3493,7 +3504,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aa278a0d-9aaa-400e-a711-4ffb24eae2b6")
 		(property "Reference" "R1"
 			(at 175.26 83.82 90)
@@ -4748,7 +4759,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fd4a78f2-ef0a-41c5-87e8-01059600e00e")
 		(property "Reference" "C3"

@@ -7794,7 +7794,7 @@
 		(path "/fd4a78f2-ef0a-41c5-87e8-01059600e00e")
 		(sheetname "/")
 		(sheetfile "raccoon_rev2.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.14058 -0.51)
 			(end 0.14058 -0.51)
@@ -8310,7 +8310,7 @@
 		(path "/aa278a0d-9aaa-400e-a711-4ffb24eae2b6")
 		(sheetname "/")
 		(sheetfile "raccoon_rev2.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
