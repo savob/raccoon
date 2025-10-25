@@ -1,6 +1,6 @@
 # Raccoon Hardware Files
 
-The folders `raccoon_revX` are the actual KiCad projects, `raccoon-art` is the collection of footprints for the artwork.
+The folders `raccoon_revX` are the actual KiCad projects, `raccoon-art` is the collection of footprints for the artwork derived from the images in the [media](../media/) folder.
 
 # Revision 1.0
 
