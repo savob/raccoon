@@ -3,6 +3,8 @@ A little raccoon trinket based on an ATtiny and capacitive sensing. The premise 
 
 My first foray into making PCB art hardwarewise, and both capacitive sensing and really trying to supress power draw with coding.
 
+All this artwork was drawn by my lovely sister, Dorotea Bajic. Check out their website [dorotea.ca](https://dorotea.ca/), it's far nicer looking than my own.
+
 # Code
 
 ## Capacitive Sensing
